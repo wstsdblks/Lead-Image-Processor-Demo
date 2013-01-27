@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/load_image_menu"
+          android:title="Load Image"
+          android:showAsAction="always|withText">
+          <menu xmlns:android="http://schemas.android.com/apk/res/android">
+              <item android:id="@+id/load_image_system"
+          			android:icon="@drawable/ic_menu_archive"
+          			android:title="File System"
+          			android:showAsAction="always|withText"
+                  />
+              <item android:id="@+id/load_image_gallery"
+          			android:icon="@drawable/ic_menu_gallery"
+          			android:title="Gallery"
+          			android:showAsAction="always|withText"
+                  />
+              <item android:id="@+id/load_image_camera"
+          			android:icon="@drawable/ic_menu_camera"
+          			android:title="Camera"
+          			android:showAsAction="always|withText"
+                  />
+              
+          </menu>
+        </item>
+</menu>
